@@ -12,7 +12,7 @@ def is_high_card(hand):
     return sorted(counts) == [1, 1, 1, 1, 1]
 
 # Read hands and bids from the text file
-with open(r"C:\Users\jaysw\OneDrive\Desktop\input.txt", "r") as file:
+with open(r"input.txt", "r") as file:
     hands_and_bids = [line.strip().split() for line in file]
 
 # Filter hands with Four of a Kind
@@ -53,7 +53,7 @@ def is_one_pair(hand):
     return sorted(counts) == [1, 1, 1, 2]
 
 # Read hands and bids from the text file
-with open(r"C:\Users\jaysw\OneDrive\Desktop\input.txt", "r") as file:
+with open(r"input.txt", "r") as file:
     hands_and_bids = [line.strip().split() for line in file]
 
 # Filter hands with Four of a Kind
@@ -94,7 +94,7 @@ def is_two_pair(hand):
     return sorted(counts) == [1, 2, 2]
 
 # Read hands and bids from the text file
-with open(r"C:\Users\jaysw\OneDrive\Desktop\input.txt", "r") as file:
+with open(r"input.txt", "r") as file:
     hands_and_bids = [line.strip().split() for line in file]
 
 # Filter hands with Four of a Kind
@@ -135,7 +135,7 @@ def is_three_of_a_kind(hand):
     return sorted(counts) == [1, 1, 3]
 
 # Read hands and bids from the text file
-with open(r"C:\Users\jaysw\OneDrive\Desktop\input.txt", "r") as file:
+with open(r"input.txt", "r") as file:
     hands_and_bids = [line.strip().split() for line in file]
 
 # Filter hands with Four of a Kind
@@ -176,7 +176,7 @@ def is_full_house(hand):
     return sorted(counts) == [2, 3]
 
 # Read hands and bids from the text file
-with open(r"C:\Users\jaysw\OneDrive\Desktop\input.txt", "r") as file:
+with open(r"input.txt", "r") as file:
     hands_and_bids = [line.strip().split() for line in file]
 
 # Filter hands with Four of a Kind
@@ -213,7 +213,7 @@ def is_full_house(hand):
     return sorted(counts) == [1, 4]
 
 # Read hands and bids from the text file
-with open(r"C:\Users\jaysw\OneDrive\Desktop\input.txt", "r") as file:
+with open(r"input.txt", "r") as file:
     hands_and_bids = [line.strip().split() for line in file]
 
 # Filter hands with Full House
